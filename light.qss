@@ -1,0 +1,113 @@
+QWidget {
+	color:#111;
+   background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #eeeef6, stop: 0.3 #f5f5fa, stop: 1 #fafafe);
+}
+QLineEdit {
+   font-style: italic;
+   font-weight: bold;
+}
+
+QPushButton {
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #C6E3DC, stop: 0.4 #D7FFFE,stop: 1 #fff);
+    
+}
+QPushButton:hover {
+	color:#fff;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FFC5A9, stop: 1 #FFC5A9);
+}
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FC8D58, stop: 1 #FFC5A9);
+}
+
+
+QTextEdit{
+	font-family:montserrat;
+   	font-size:15px;
+   	font-weight:bold;
+	background-color:qlineargradient(x1: 0, y1:0,x2:0,y2:1,stop: 0 #C6E3DC,stop : 1 #fff );
+	color:#000;
+}
+QTabWidget{
+	background-color: #C6E3DC;
+}
+
+QMenuBar {
+color:#000;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 #C6E3DC, stop:1 #FFF);
+
+}
+
+QMenuBar::item {
+    spacing: 10px; 
+    padding: 1px 10px;
+    background: transparent;
+    border-radius: 2px;
+}
+
+QMenuBar::item:selected { 
+    background: #B4E3E8;
+}
+
+QMenuBar::item:pressed {
+    background: #B4E3D8;
+}
+
+
+QMenu {
+    background-color: #C6E3DC;
+    border: 1px solid white;
+}
+
+QMenu::item {
+	color:#000;
+    background-color: transparent;
+}
+
+QMenu::item:selected {
+    color:#0000ee;
+    background-color: #B4E3E8;
+}
+
+
+
+
+QTabWidget::pane { 
+    border-top: 2px transparent #eeeef6;
+
+}
+
+
+
+QTabBar::tab {
+	color:#555;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #C6E3DC,  stop: 1.0 #fff);
+    
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    
+    
+    padding : 10px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+	color : #000;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #B4E3E8,  stop: 1.0 #C6E3DC);
+}
+
+QSplitter::handle:horizontal {
+    width: 2px;
+}
+QCombobox{
+	color:#eee;
+}
+
+

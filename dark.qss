@@ -1,0 +1,113 @@
+QWidget {
+   background-color: #555555;
+
+}
+QLineEdit {
+   font-style: italic;
+   font-weight: bold;
+}
+
+
+QTextEdit{
+	font-family:montserrat;
+   	font-size:15px;
+   	font-weight:bold;
+	background-color:#454545;
+	color:#fff;
+}
+QTabWidget{
+	background-color: #555555;
+}
+
+QPushButton {
+    border: 1px solid #555;
+    border-radius: 8px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #333, stop: 1 #444);
+    
+}
+QPushButton:hover {
+  color:#fff;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #228B22, stop: 1 #9ACD32);
+}
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #32CD32, stop: 1 #00FF00);
+}
+
+QMenuBar {
+color:#fff;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 #444, stop:1 #555);
+
+}
+
+QMenuBar::item {
+    spacing: 10px; 
+    padding: 1px 10px;
+    background: transparent;
+    border-radius: 2px;
+}
+
+QMenuBar::item:selected { 
+    background: #a8a8a8;
+}
+
+QMenuBar::item:pressed {
+    background: #888888;
+}
+
+
+QMenu {
+    background-color: #666; 
+    border: 1px solid black;
+}
+
+QMenu::item {
+	color:#fff;
+    background-color: transparent;
+}
+
+QMenu::item:selected { 
+    background-color: #777;
+}
+
+
+
+
+QTabWidget::pane { 
+    border-top: 2px solid #555;
+
+}
+
+
+
+QTabBar::tab {
+	color:#aaa;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #444, stop: 0.4 #555,
+                                stop: 0.5 #555, stop: 1.0 #666);
+    
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    
+    
+    padding : 10px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+	color : #fff;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #333, stop: 0.4 #345,
+                                stop: 0.5 #444, stop: 1.0 #555);
+}
+
+QSplitter::handle:horizontal {
+    width: 2px;
+}
+QCombobox{
+	color:#fff;
+}
+
+
